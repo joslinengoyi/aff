@@ -26,6 +26,9 @@ Route::get('/contact',function(){
 	
 	return view('contact');
 });
+Route::get('/partenaires', function () {
+    return view('partenaires');
+});
 
 Route::get('/services',function(){
 	

@@ -12251,7 +12251,7 @@ button.owl-next {
   /* responsive */
   /* //responsive */ }
   .w3l-specifications-9 .main-w3 {
-    background: linear-gradient(100deg, #2e5deb 10%, #5360fd 50%, #ff5b83 100%); }
+    background: linear-gradient(100deg, #0267c2 10%, #023b7b 50%, #011e34 100%); }
   .w3l-specifications-9 .grids-speci1 span.fa {
     font-size: 36px;
     color: var(--opposite-color);
@@ -12414,7 +12414,7 @@ button.owl-next {
   border-radius: 4px; }
 
 .services-1 .ser-bg3 {
-  background: url(../images/g3.jpg) no-repeat center;
+  background: url(../images/fintechkin.jpg) no-repeat center;
   background-size: cover;
   min-height: 400px;
   position: relative;

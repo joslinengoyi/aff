@@ -1,12 +1,12 @@
 @extends('master')
 
-    @section('contacte')
+@section('partenariat')
 
-            <section class="w3l-contact-breadcrum">
+		<section class="w3l-contact-breadcrum">
               <div class="breadcrum-bg">
                 <div class="container py-5">
-                  <h2>Contactez-Nous</h2>
-                  <p><a href="/accueil">Accueil</a> &nbsp; / &nbsp; Contactez-nous</p>
+                  <h2>Partenaires</h2>
+                  <p><a href="/accueil">Accueil</a> &nbsp; / &nbsp; Partenaires</p>
                 </div>
               </div>
             </section>
@@ -15,8 +15,8 @@
                     <div class="container">
                         <div class="contact-grids d-grid">
                             <div class="contact-left">
-                                <h4>Laissez votre message</h4>
-                                <h6>Pour plus d'informations sur le forum, n'hésitez pas de nous contacter.</h6>
+                                <h4>Devenir Partenaire</h4>
+                                <h6>Pour plus d'informations sur le partenariat, Contactez-nous :</h6>
                                 <div class="hours">
                                     <h6 class="info mt-3">Email:</h6>
                                     <p> <a href="mailto:info@africafintech.org">
@@ -28,17 +28,7 @@
                                 </div>
                             </div>
                             <div class="contact-right">
-                                <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
-                                    <div class="input-grids">
-                                        <input type="text" name="w3lName" id="w3lName" placeholder="Votre Nom*" class="contact-input">
-                                        <input type="email" name="w3lSender" id="w3lSender" placeholder="Votre Email*" class="contact-input" required="">
-                                        <input type="text" name="w3lSubect" id="w3lSubect" placeholder="Objet*" class="contact-input">
-                                    </div>
-                                    <div class="form-input">
-                                        <textarea name="w3lMessage" id="w3lMessage" placeholder="Saisir votre message ici *" required=""></textarea>
-                                    </div>
-                                    <button class="btn btn-secondary btn-theme2 submit">Soumettre</button>
-                                </form>
+                               <p> LOGO DES PARTENAIRES ICI </p>
                             </div>
 
                         </div>
@@ -57,4 +47,4 @@
             </section>
             <!-- //contact -->
 
-    @stop
+@stop

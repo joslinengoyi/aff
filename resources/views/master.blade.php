@@ -42,8 +42,11 @@
 						<a class="nav-link" href="/about">Présentation</a>
 					</li>
 					<li class="nav-item @@services__active">
-						<a class="nav-link" href="/services">Services</a>
+						<a class="nav-link" href="/services">Calendrier</a>
 					</li>
+          <li class="nav-item @@contact__active">
+            <a class="nav-link" href="/partenaires">Partenaires</a>
+          </li>
 					
 					<li class="nav-item @@contact__active">
 						<a class="nav-link" href="/contact">Contact</a>
@@ -79,7 +82,7 @@
 @yield('accueil')
 @yield('aboutme')
 @yield ('contacte')
- 
+@yield ('partenariat')
 @yield('service')
 
 
@@ -91,24 +94,24 @@
               <div class="footer-list-29 footer-1">
                   <h6 class="footer-title-29">Contactez-nous</h6>
                   <ul>
-                      <li><p><span class="fa fa-map-marker"></span> Plateaux, Abidjan, Cote d'Ivoire</p></li>
+                      <li><p><span class="fa fa-map-marker"></span> Plateaux, Abidjan, Côte d'Ivoire</p></li>
                       <li><a href="tel:+225 59 87 69 98"><span class="fa fa-phone"></span> +225 59 87 69 98</a></li>
-                      <li><a href="mailto:info@africafintech.org" class="mail"><span class="fa fa-envelope-open-o"></span> info@africafintech.org</a></li>
+                      <li><a href="mailto:info@africafintechforum.net" class="mail"><span class="fa fa-envelope-open-o"></span> info@africafintechforum.net</a></li>
                   </ul>
                   <div class="main-social-footer-29">
                       <a href="https://www.facebook.com/affintech/" class="facebook"><span class="fa fa-facebook"></span></a>
                       <a href="https://twitter.com/affintechforum?s=21" class="twitter">
                         <span class="fa fa-twitter"></span></a>
-                      <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+                      <a href="africafintechforum" class="linkedin"><span class="fa fa-linkedin"></span></a>
                       <a href="######" class="whatsapp"><span class="fa fa-whatsapp"></span></a>
                   </div>
               </div>
               <div class="footer-list-29 footer-2">
                   <ul>
                       <h6 class="footer-title-29">Liens en Vedette</h6>
-                      <li><a href="/accueil">Notre Mission</a></li>
-                      <li><a href="/accueil">Notre Vision</a></li>
-                      <li><a href="/accueil">Nos partenaires</a></li>
+                      <li><a href="/services">Parrainage</a></li>
+                      <li><a href="/services">Calendrier</a></li>
+                      <li><a href="/accueil">Partenaires</a></li>
                   </ul>
               </div>
               <div class="footer-list-29 footer-3">
@@ -128,7 +131,7 @@
                       <h6 class="footer-title-29">Lien rapide</h6>
                       <li><a href="/accueil">Accueil</a></li>
                       <li><a href="/about">Présentation</a></li>
-                      <li><a href="/services">Services</a></li>
+                      <li><a href="/services">Calendrier</a></li>
                       <li><a href="/contact">Contact</a></li>
                   </ul>
               </div>

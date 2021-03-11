@@ -1,195 +1,203 @@
 @extends('master')
 
 @section('accueil')
-      <section class="w3l-main-slider" id="home">
-          <!-- main-slider -->
-          <div class="companies20-content">
-           
-            <div class="owl-one owl-carousel owl-theme">
-              <div class="item" >
-                <li>
-
-                  <div class="slider-info banner-view bg bg2" data-selector=".bg.bg2">
-                    
-                    <div class="banner-info">
-                      <div class="container">
-                        <div class="banner-info-bg mx-auto text-center">
-                          <h5>Check Out Our Latests Tips & Tricks </h5>
-                         <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
-                         <div class="scroll-button">
-                          <a href="#about" class="scroll">
-                            <div class="icon-scroll">
-                              <div class="mouse">
-                                <div class="wheel"></div>
-                              </div>
-                              <div class="icon-arrows">
-                                <span></span>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                        </div>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </div>
-              <div class="item">
-                <li>
-                  <div class="slider-info  banner-view banner-top1 bg bg2" data-selector=".bg.bg2">
-                    <div class="banner-info">
-                      <div class="container">
-                        <div class="banner-info-bg mx-auto text-center">
-                          <h5>The Largest business Expert in Newyork</h5>
-                          <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="/services">Read More</a>
-                          <div class="scroll-button">
-                            <a href="#about" class="scroll">
-                              <div class="icon-scroll">
-                                <div class="mouse">
-                                  <div class="wheel"></div>
-                                </div>
-                                <div class="icon-arrows">
-                                  <span></span>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </div>
-              <div class="item">
-                <li>
-                  <div class="slider-info banner-view banner-top2 bg bg2" data-selector=".bg.bg2">
-                    <div class="banner-info">
-                      <div class="container">
-                        <div class="banner-info-bg mx-auto text-center">
-                          <h5>Check Out Our Latests Tips & Tricks </h5>
-                         <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="/service">Read More</a>
-                         <div class="scroll-button">
-                          <a href="#about" class="scroll">
-                            <div class="icon-scroll">
-                              <div class="mouse">
-                                <div class="wheel"></div>
-                              </div>
-                              <div class="icon-arrows">
-                                <span></span>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </div>
-              <div class="item">
-                <li>
-                  <div class="slider-info banner-view banner-top3 bg bg2" data-selector=".bg.bg2">
-                    <div class="banner-info">
-                      <div class="container">
-                        <div class="banner-info-bg mx-auto text-center">
-                          <h5>The Largest business Expert in Newyork</h5>
-                          <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
-                          <div class="scroll-button">
-                            <a href="#about" class="scroll">
-                              <div class="icon-scroll">
-                                <div class="mouse">
-                                  <div class="wheel"></div>
-                                </div>
-                                <div class="icon-arrows">
-                                  <span></span>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </div>
-            </div>
+      <section class="w3l-service-breadcrum">
+        <div class="breadcrum-bg">
+          <div class="container py-5">
+            <h2>Accueil</h2>
+            <p><a href="/accueil">Bienvenu(e) sur Africa Fintech Forum</p>
           </div>
+        </div>
+      </section>
+      <!-- /SECTION 1 - CONTENATNT LE CARROUSEL QUI NE S AFFICHE PAS -->
 
-              </div>
+     <!-- <section class="w3l-main-slider" id="home">
+       
+                <div class="companies20-content"> 
+                    <div class="owl-one owl-carousel owl-theme">
+                          <div class="item" >
+                            <li>
 
+                              <div class="slider-info banner-view bg bg2" data-selector=".bg.bg2">
+                                
+                                <div class="banner-info">
+                                  <div class="container">
+                                    <div class="banner-info-bg mx-auto text-center">
+                                      <h5>Check Out Our Latests Tips & Tricks </h5>
+                                     <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
+                                     <div class="scroll-button">
+                                      <a href="#about" class="scroll">
+                                        <div class="icon-scroll">
+                                          <div class="mouse">
+                                            <div class="wheel"></div>
+                                          </div>
+                                          <div class="icon-arrows">
+                                            <span></span>
+                                          </div>
+                                        </div>
+                                      </a>
+                                    </div>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </div>
+                          <div class="item">
+                            <li>
+                              <div class="slider-info  banner-view banner-top1 bg bg2" data-selector=".bg.bg2">
+                                <div class="banner-info">
+                                  <div class="container">
+                                    <div class="banner-info-bg mx-auto text-center">
+                                      <h5>The Largest business Expert in Newyork</h5>
+                                      <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="/services">Read More</a>
+                                      <div class="scroll-button">
+                                        <a href="#about" class="scroll">
+                                          <div class="icon-scroll">
+                                            <div class="mouse">
+                                              <div class="wheel"></div>
+                                            </div>
+                                            <div class="icon-arrows">
+                                              <span></span>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </div>
+                          <div class="item">
+                            <li>
+                              <div class="slider-info banner-view banner-top2 bg bg2" data-selector=".bg.bg2">
+                                <div class="banner-info">
+                                  <div class="container">
+                                    <div class="banner-info-bg mx-auto text-center">
+                                      <h5>Check Out Our Latests Tips & Tricks </h5>
+                                     <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="/service">Read More</a>
+                                     <div class="scroll-button">
+                                      <a href="#about" class="scroll">
+                                        <div class="icon-scroll">
+                                          <div class="mouse">
+                                            <div class="wheel"></div>
+                                          </div>
+                                          <div class="icon-arrows">
+                                            <span></span>
+                                          </div>
+                                        </div>
+                                      </a>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </div>
+                          <div class="item">
+                            <li>
+                              <div class="slider-info banner-view banner-top3 bg bg2" data-selector=".bg.bg2">
+                                <div class="banner-info">
+                                  <div class="container">
+                                    <div class="banner-info-bg mx-auto text-center">
+                                      <h5>The Largest business Expert in Newyork</h5>
+                                      <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
+                                      <div class="scroll-button">
+                                        <a href="#about" class="scroll">
+                                          <div class="icon-scroll">
+                                            <div class="mouse">
+                                              <div class="wheel"></div>
+                                            </div>
+                                            <div class="icon-arrows">
+                                              <span></span>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </div>
+                    </div>
+                </div>
 
-            <script src="assets/js/owl.carousel.js"></script>
-            <!-- script for -->
-            <script>
-              $(document).ready(function () {
-                $('.owl-one').owlCarousel({
-                  loop: true,
-                  margin: 0,
-                  nav: false,
-                  responsiveClass: true,
-                  autoplay: false,
-                  autoplayTimeout: 5000,
-                  autoplaySpeed: 1000,
-                  autoplayHoverPause: false,
-                  responsive: {
-                    0: {
-                      items: 1,
-                      nav: false
-                    },
-                    480: {
-                      items: 1,
-                      nav: false
-                    },
-                    667: {
-                      items: 1,
-                      nav: true
-                    },
-                    1000: {
-                      items: 1,
-                      nav: true
-                    }
-                  }
-                })
-              })
-            </script>
-            <!-- //script -->
-            <!-- /main-slider -->
-         </section>
+                  <script src="assets/js/owl.carousel.js"></script>
+                 
+                  <script>
+                    $(document).ready(function () {
+                      $('.owl-one').owlCarousel({
+                        loop: true,
+                        margin: 0,
+                        nav: false,
+                        responsiveClass: true,
+                        autoplay: false,
+                        autoplayTimeout: 5000,
+                        autoplaySpeed: 1000,
+                        autoplayHoverPause: false,
+                        responsive: {
+                          0: {
+                            items: 1,
+                            nav: false
+                          },
+                          480: {
+                            items: 1,
+                            nav: false
+                          },
+                          667: {
+                            items: 1,
+                            nav: true
+                          },
+                          1000: {
+                            items: 1,
+                            nav: true
+                          }
+                        }
+                      })
+                    })
+                  </script>
+                          
+      </section> -->
+      
+      <!-- /FIN SECTION 1 - CARROUSEL ET SCRIPT-->
+
+        <!-- /SECTION 2 - LES CORPS DU TEXTE -->
         <section class="w3l-features-4">
         	<!-- /features -->
         		<div class="features py-5" id="about">
                     <div class="container py-lg-5">
-        			
-        <div class="feat-top row">
-        <div class="feat-top-left col-lg-4">
-        	<h4 class="sub-title">More than 10 years experience in the finance industry</h4>
-        	<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices posuere primis in faucibus</p>
-        	<a class="btn btn-secondary btn-theme2 mt-4" href="services.html"> See More Services  &rarr;</a>
-        </div>
-        			<div class="fea-gd-vv col-lg-8 row mt-lg-0 mt-5 pl-lg-5">	
-        			   <div class="float-lt feature-gd col-md-6">	
-        				<img src="{{ asset ('images/g5.jpg')}}" class="img-fluid" alt="">
-        					 <div class="icon-info">
-        						<h5 class="mt-3"><a href="#">Digital Innovation
-        							</a></h5>
-        						<p> Consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices </p>
-        					</div>
-        					 
-        				</div>	
-        				<div class="float-mid feature-gd col-md-6 mt-md-0 mt-5">	
-        					<img src="{{ asset ('images/g3.jpg')}} " class="img-fluid" alt="">
-        					 <div class="icon-info">
-        						<h5 class="mt-3"><a href="#">Branding Strategy
-        						</a></h5>
-        						<p> Consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices </p>
-        					</div>
-        			 </div> 
-        						 				 
-        		  </div> 
-        		</div>
-        		 </div>
-        	   </div>
+                      <div class="feat-top row">
+                        <div class="feat-top-left col-lg-4">
+                        	<h4 class="sub-title">«Ouvrir l'industrie mondiale de la fintech en Afrique»</h4>
+                        	<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices posuere primis in faucibus</p>
+                        	<a class="btn btn-secondary btn-theme2 mt-4" href="services.html"> See More Services  &rarr;</a>
+                        </div>
+                        			<div class="fea-gd-vv col-lg-8 row mt-lg-0 mt-5 pl-lg-5">	
+                        			   <div class="float-lt feature-gd col-md-6">	
+                        				<img src="{{ asset ('images/g5.jpg')}}" class="img-fluid" alt="">
+                        					 <div class="icon-info">
+                        						<h5 class="mt-3"><a href="#">Digital Innovation
+                        							</a></h5>
+                        						<p> Consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices </p>
+                        					</div>
+                        					 
+                        				</div>	
+                        				<div class="float-mid feature-gd col-md-6 mt-md-0 mt-5">	
+                        					<img src="{{ asset ('images/g3.jpg')}} " class="img-fluid" alt="">
+                        					 <div class="icon-info">
+                        						<h5 class="mt-3"><a href="#">Branding Strategy
+                        						</a></h5>
+                        						<p> Consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices </p>
+                        					</div>
+                        			 </div> 
+                        						 				 
+                        		  </div> 
+                        		</div>
+                        		 </div>
+                        	   </div>
            <!-- //features -->
         </section>
         <div class="w3l-open-block-services py-5" id="services">
@@ -252,12 +260,12 @@
         				</div>
         			</div>
         		</div>
-        	</div>
+        </div>
         <section class="w3l-index6 py-5">
           <div class="container py-md-3 text-center">
             <div class="heading text-center mx-auto">
         				<h3 class="head text-white">Developing first class solutions
-        for our clients.</h3>
+                  for our clients.</h3>
         				<p class="my-3 head text-white"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
         				  Nulla mollis dapibus nunc, ut rhoncus
         				  turpis sodales quis. Integer sit amet mattis quam.</p>
@@ -467,7 +475,7 @@
         					</div>
         				</div>
         			</div>
-        		</section>
+        </section>
         <section class="w3l-news" id="news">
           <section id="grids5-block" class="py-5">
             <div class="container py-lg-3">
